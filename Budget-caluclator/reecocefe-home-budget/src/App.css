@@ -1,0 +1,30 @@
+/* App.css */
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+    background-color: #0539f43b ;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  /* .calculate-button {
+    background-color: #48bb0a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #189305;
+  } */

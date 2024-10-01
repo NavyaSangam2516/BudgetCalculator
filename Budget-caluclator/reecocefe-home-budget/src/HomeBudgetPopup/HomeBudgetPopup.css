@@ -1,0 +1,82 @@
+/* HomeBudgetPopup.css */
+
+.dialog-content {
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.dialog-title {
+  padding: 16px 24px;
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.slider-box {
+  margin-bottom: 20px;
+}
+
+.slider-box .MuiTypography-root {
+  font-weight: bold;
+}
+
+.budget-result {
+  margin-top: 20px;
+  color: #388e3c;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.budget-estimation {
+  margin-top: 10px;
+  color: #757575;
+  font-size: 0.875rem;
+}
+
+.dialog-actions {
+  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.close-button {
+  color: white;
+  background-color: #ee8383c0;
+  border-radius: 20px;
+  padding: 6px 16px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background-color: #b71c1c88;
+}
+/* Ensure that dialog width does not exceed screen size */
+.MuiDialog-paper {
+  max-width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+@media (max-width: 600px) {
+  .MuiDialog-paper {
+    max-width: 95vw; /* Make dialog fit better on smaller screens */
+  }
+
+  .dialog-content {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .slider-box {
+    margin-bottom: 15px;
+  }
+
+  .budget-result {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .budget-estimation {
+    font-size: 0.75rem; /* Adjust font size for smaller screens */
+  }
+}

@@ -1,0 +1,50 @@
+/* Header.css */
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:#0539f44a;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .header-title {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .calculate-button {
+    background-color: #6222ed;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #1a0c60;
+  }
+  
